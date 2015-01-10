@@ -14,6 +14,7 @@
 		E77EEE4D1A632B0C00AD4289 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77EEE4C1A632B0C00AD4289 /* Images.xcassets */; };
 		E77EEE501A632B0C00AD4289 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E77EEE4E1A632B0C00AD4289 /* LaunchScreen.xib */; };
 		E77EEE5C1A632B0C00AD4289 /* ShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77EEE5B1A632B0C00AD4289 /* ShowTests.swift */; };
+		E77EEE6A1A632F0400AD4289 /* Goat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77EEE691A632F0400AD4289 /* Goat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		E77EEE5A1A632B0C00AD4289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E77EEE5B1A632B0C00AD4289 /* ShowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTests.swift; sourceTree = "<group>"; };
 		E77EEE651A632DCB00AD4289 /* Show-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Show-Bridging-Header.h"; sourceTree = "<group>"; };
+		E77EEE691A632F0400AD4289 /* Goat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goat.swift; sourceTree = "<group>"; };
 		ED3BC68B6D869F07D6036209 /* libPods-Show.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Show.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 				E77EEE4E1A632B0C00AD4289 /* LaunchScreen.xib */,
 				E77EEE431A632B0C00AD4289 /* Supporting Files */,
 				E77EEE651A632DCB00AD4289 /* Show-Bridging-Header.h */,
+				E77EEE691A632F0400AD4289 /* Goat.swift */,
 			);
 			path = Show;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E77EEE481A632B0C00AD4289 /* ViewController.swift in Sources */,
+				E77EEE6A1A632F0400AD4289 /* Goat.swift in Sources */,
 				E77EEE461A632B0C00AD4289 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
