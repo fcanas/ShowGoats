@@ -19,6 +19,12 @@ class Goat {
         self.parseObject = parseObject
     }
     
+    var name: String = "" {
+        didSet {
+            parsify(name)
+        }
+    }
+    
     var food: String  = "grass" {
         didSet {
             parsify(food)

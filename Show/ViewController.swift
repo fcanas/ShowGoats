@@ -12,10 +12,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         Goat.getGoats ( { (results) -> Void in
             if let goats = results? {
-                println(goats)
-                
                 for goat in goats {
                     goat.food = "Cashews"
+                    goat.name = "Randall"
                 }
                 
             }
